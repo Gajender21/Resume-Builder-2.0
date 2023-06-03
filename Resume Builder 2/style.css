@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,200');
+body {  height: 100vh;
+    width: 100vw;
+    color: #fff;
+    
+    font-family: Helvetica, san-serif;
+  background: -webkit-linear-gradient(90deg, #00aaee 10%, #DD2476 90%); /* Chrome 10+, Saf5.1+ */
+  background:  -moz-linear-gradient(90deg, #00aaee 10%, #DD2476 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00aaee 10%, #DD2476 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00aaee 10%, #DD2476 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00aaee 10%, #DD2476 90%); /* W3C */ }
+header{
+    width: 100vw;
+    height: 100vh;
+  
+}
+.mainHeader{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.mainHeader .logo img{
+  width: 150px;
+  height: 150px;
+  min-width: auto;
+  min-height: auto;
+  color: #fff;
+
+}
+.mainHeader nav{
+    width: 600px;
+    min-height: fit-content;
+    min-width: fit-content;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* margin: 10px; */
+}
+.mainHeader nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.mainHeader nav a:hover{
+    color: gray;
+}
+.hero{
+    margin-top: 30px;
+    height: 380px;
+    min-height: fit-content;
+    min-width: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hero h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.hero p{
+    font-size: 18px;
+}
+.resumeBtn{
+    text-align: center;
+    margin-top: 40px;
+    /* box-sizing: border-box; */
+
+}
+.resumeBtn button{
+    font-size: x-large;
+    padding: 20px;
+    background-color: #0091FF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    
+}
+.resumeBtn button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #0f73c0;
+    
+}
+
+.firstPage{
+    height: fit-content;
+    width: 100%;
+    min-height: fit-content;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firstPage .img1{
+    height: auto;
+    width: auto;
+}
+.firstPage .img1 img{
+    height:auto;
+    width: auto;
+}
+.firstPage .heading2{
+    margin-top: 50px;
+}
+.firstPage .heading2 h2{
+    font-size: 40px;
+}
+.featureListContainer{
+    height: fit-content;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 100px ;
+}
+.featureListContainer .left .featureList li {
+ list-style: none;
+ font-size: 24px;
+ padding-bottom: 20px;
+ 
+}
+.featureListContainer .left .featureList .checkIcon{
+    font-size: x-large;
+    color: red;
+}
+.featureListContainer .left .featureList .desc{
+    font-size: 18px;
+    padding-top: 10px;
+}
